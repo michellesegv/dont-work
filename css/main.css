@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Satisfy');
+.texto-navbar{
+	font-family: Lobster;
+	font-size: 2em;
+	display: inline-block;
+	margin: 1% 0  1% 2%;
+}
+.subtitulo-navbar{
+	display: inline-block;
+	margin: 2% 1%;
+}
+.seccion1{
+
+}
