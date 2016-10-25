@@ -1,14 +1,68 @@
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Satisfy');
-.texto-navbar{
-	font-family: Lobster;
-	font-size: 2em;
-	display: inline-block;
-	margin: 1% 0  1% 2%;
+@import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Raleway');
+/*NAVBAR*/
+.navbar{
+	background-color: #384259;
+	border: 0;
 }
 .subtitulo-navbar{
 	display: inline-block;
-	margin: 2% 1%;
+	margin: 30px 1%;
+	font-size: 1.4em;
+	font-family: Lobster;
+	color: white;
 }
-.seccion1{
-
+.logo{
+	height: 60px;
+	margin: 15px;
+}
+/*PRESENTACIÓN*/
+.presentacion{
+	margin-top: 90px;
+	background-image: url(../img/fondo1.png);
+	background-size: 100% 680px;
+	text-align: center;
+	padding: 13% 0;
+	background-repeat: no-repeat;
+}
+.presentacion div{
+	margin: 0 auto;
+	width: 45%;
+	font-family: Luckiest Guy;
+	color: white;
+	font-size: 4em;
+	padding: 4% 0;
+	background-color: black;
+}
+/*¿QUIÉN SOY?*/
+#quien-soy{
+	margin-bottom: 25px;
+}
+.titulo-quien-soy{
+	background-color: black;
+	padding: 10px 0;
+	width: 100%;
+	font-family: Luckiest Guy;
+	font-size: 2em;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+	color: white;
+}
+.logo-titulo{
+	width: 200px;
+	height: auto;
+	margin: 30px auto 15px auto;
+}
+.contenido-quien-soy{
+	background-color: #C4EDDE;
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	font-family: Raleway;
+	font-size: 1.2em;
+	margin: 24px auto;
+}
+/*PROYECTOS*/
+#proyectos{
+	background-color: #7AC7C4;
 }
