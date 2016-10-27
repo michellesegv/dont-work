@@ -56,6 +56,11 @@
 	height: auto;
 	margin: 30px auto 15px auto;
 }
+.logo-titulo:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
 .contenido-quien-soy{
 	background-color: #C4EDDE;
 	width: 100%;
@@ -121,3 +126,19 @@ a:active{
 	 top: 5px;
 }
 /*Contáctame*/
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/loader-64x/Preloader_3.gif) center no-repeat #fff;
+}
+#contactame{
+	background-color:#F73859;
+}
+.titulo-footer{
+	width: 50%;
+	margin: 0 auto;
+}
