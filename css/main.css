@@ -3,6 +3,7 @@
 .navbar{
 	background-color: #384259;
 	border: 0;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
 }
 .subtitulo-navbar{
 	display: inline-block;
