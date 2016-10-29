@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Raleway');
 /*NAVBAR*/
-.navbar{
-	background-color: #384259;
-	border: 0;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+.item {
+	z-index: 5;
 }
 .subtitulo-navbar{
 	display: inline-block;
 	margin: 30px 1%;
 	font-size: 1.4em;
 	font-family: Lobster;
-	color: white;
+	color: black;
 }
 .logo{
 	height: 60px;
@@ -18,7 +16,7 @@
 }
 /*PRESENTACIÓN*/
 .presentacion{
-	margin-top: 90px;
+
 	background-image: url(../img/fondo1.png);
 	text-align: center;
 	padding: 13% 0;
@@ -57,9 +55,9 @@
 	margin: 30px auto 15px auto;
 }
 .logo-titulo:hover{
--webkit-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .contenido-quien-soy{
 	background-color: #C4EDDE;
@@ -72,7 +70,7 @@ transform: scale(1.1);
 }
 /*PROYECTOS*/
 #proyectos{
-	background-image: url(../img/fondo2.gif);
+	background-image: url(../img/fondox.gif);
 	padding-bottom: 25px;
 	background-attachment: fixed;
 	background-position: center;
@@ -95,9 +93,9 @@ transform: scale(1.1);
 	height: 200px;
 }
 .proyecto-html-css:hover{
--webkit-transform: scale(1.3);
--ms-transform: scale(1.3);
-transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
 }
 .titulo-blanco{
 	background-color: white;
@@ -122,8 +120,8 @@ transform: scale(1.3);
 	margin: 24px auto;
 }
 a:active{
-	 position: relative;
-	 top: 5px;
+	position: relative;
+	top: 5px;
 }
 /*Contáctame*/
 .se-pre-con {
@@ -142,3 +140,129 @@ a:active{
 	width: 50%;
 	margin: 0 auto;
 }
+/*SKILLS*/
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+#skills {
+	font-size: 16px;
+}
+.set-size {
+	font-size: 10em;
+}
+.pie-wrapper {
+	height: 1em;
+	width: 1em;
+	float: left;
+	margin: 15px;
+	position: relative;
+}
+.pie-wrapper .pie {
+	height: 100%;
+	width: 100%;
+	clip: rect(0, 1em, 1em, 0.5em);
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.pie-wrapper .pie .half-circle {
+	height: 100%;
+	width: 100%;
+	border: 0.1em solid #3498db;
+	border-radius: 50%;
+	clip: rect(0, 0.5em, 1em, 0);
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.pie-wrapper .label {
+	background: #34495e;
+	border-radius: 50%;
+	bottom: 0.4em;
+	color: #ecf0f1;
+	cursor: default;
+	display: block;
+	font-size: 0.25em;
+	left: 0.4em;
+	line-height: 2.6em;
+	position: absolute;
+	right: 0.4em;
+	text-align: center;
+	top: 0.4em;
+}
+.pie-wrapper .label .smaller {
+	color: #bdc3c7;
+	font-size: .45em;
+	padding-bottom: 20px;
+	vertical-align: super;
+}
+.pie-wrapper .shadow {
+	height: 100%;
+	width: 100%;
+	border: 0.1em solid #bdc3c7;
+	border-radius: 50%;
+}
+.pie-wrapper.style-2 .label {
+	background: none;
+	color: #7f8c8d;
+}
+.pie-wrapper.progress-45 .pie .half-circle {
+	border-color: #1abc9c;
+}
+.pie-wrapper.progress-45 .pie .left-side {
+	-webkit-transform: rotate(162deg);
+	transform: rotate(162deg);
+}
+.pie-wrapper.progress-75 .pie {
+	clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-75 .pie .right-side {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.pie-wrapper.progress-75 .pie .half-circle {
+	border-color: #8e44ad;
+}
+.pie-wrapper.progress-75 .pie .left-side {
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+.pie-wrapper.progress-95 .pie {
+	clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper.progress-95 .pie .right-side {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.pie-wrapper.progress-95 .pie .half-circle {
+	border-color: #e74c3c;
+}
+.pie-wrapper.progress-95 .pie .left-side {
+	-webkit-transform: rotate(342deg);
+	transform: rotate(342deg);
+}
+.menu {
+	background-color: transparent;
+	padding-left: 0px;
+	transition: padding , padding-left 1s;
+	z-index: 1000;
+	position: fixed;
+}
+.menu li {
+	display: inline;
+	margin: 0;
+}
+.menu-fixed {
+	position:fixed;
+	top:0;
+	left:0px;
+	padding: 19px;
+	background-color: blue !important;
+	margin:0;
+	width:100%;
+	z-index: 1000;
+	padding-left: 400px;
+}
+
