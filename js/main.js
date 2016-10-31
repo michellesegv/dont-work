@@ -3,14 +3,30 @@ $(window).load(function() {
 });
 
 $(document).ready(function(){
-    var altura = $('.menu').offset().top;
-    
-    $(window).on('scroll', function(){
-        if ( $(window).scrollTop() > altura ){
-            $('.menu').addClass('menu-fixed');
-        } else {
-            $('.menu').removeClass('menu-fixed');
-        }
-    });
- 
+	var altura = $('.bajando').offset().top;
+
+	$(window).on('scroll', function(){
+		if ( $(window).scrollTop() > altura-10 ){
+			$('.menu').addClass('menu-fixed');
+			$(".navbar-right").children().children().addClass("blanco");
+		} else {
+			$('.menu').removeClass('menu-fixed');
+			$(".navbar-right").children().children().removeClass("blanco");
+		}
+	});
+
+});
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	  var target = $(this.hash);
+	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	  if (target.length) {
+		$('html, body').animate({
+		  scrollTop: target.offset().top
+		}, 1000);
+		return false;
+	  }
+	}
+  });
 });
