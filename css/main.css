@@ -394,6 +394,17 @@ h3{
 	.img-sobre-mi {
 	width: 59%;
 	}
+	.friends {
+	margin: 7%;
+	}
+	.img-sobre-mi {
+	width: 74%;
+	}
+	.contenido-gustos {
+	width: 70%;
+	font-size: 2.5em;
+	margin: 100px auto 0 auto;
+	}
 }
 @media screen and (max-width : 320px){
 	.titulo-contactame{
@@ -431,6 +442,29 @@ h3{
 	margin: 20% 0;
 	font-family: Luckiest Guy;
 	color: white;
+	}
+	.navbar-toggle{
+		margin-top: 22px;
+		margin-right: 19px;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+	}
+	.nav > li > a {
+	padding: 15px 37px;
+	}
+	.contenido-gustos {
+	width: 80%;
+	color: white;
+	border-radius: 15px;
+	font-size: 2em;
+	margin:0 auto;
+	}
+	.img-sobre-mi {
+	width: 89%;
+	}
+	.subtitulo-skill {
+	font-size: 14px;
 	}
 
 }
