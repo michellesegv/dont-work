@@ -96,12 +96,13 @@ a:active{
 }
 /*PROYECTOS*/
 #proyectos{
-	background-image: url(../img/fondo2.jpg);
-	padding-bottom: 25px;
+/*	background-image: url(../img/fondo2.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover;*/
+	background-color: #7AC7C4;
+	padding-bottom: 25px;
 }
 .titulo-proyecto{
 	background-color:#F73859;
@@ -301,8 +302,8 @@ a:active{
 }
 /*Contáctame*/
 #contactame{
-	background-color:#F73859;
-	color: white;
+	background-color: #C4EDDE;
+	color: #2A363B;
 	padding: 100px 0 50px 0;
 }
 .titulo-contactame{
@@ -315,22 +316,22 @@ a:active{
 }
 h3 a{
 	text-decoration: none;
-	color: white;
+	color: #2A363B;
 }
 h3 a:hover{
 	text-decoration: none;
-	color: white;
+	color: #2A363B;
 }
 h3 a:active{
-	color: white;
+	color: #2A363B;
 	text-decoration: none;
 }
 h3 a:visited{
-	color: white;
+	color: #2A363B;
 	text-decoration: none;
 }
 h3 a:focus{
-	color: white;
+	color: #2A363B;
 	text-decoration: none;
 }
 h3{
@@ -339,7 +340,7 @@ h3{
 	font-size: 18px;
 }
 .img-footer{
-	width: 70%;
+	width: 50%;
 }
 /*LOADER*/
 .pre-load{
