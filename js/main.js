@@ -48,7 +48,7 @@ var barraProgreso= function (){
 	var barraJs = document.getElementById("barra-js");
 	var barraJquery = document.getElementById("barra-jquery");
 	var barraBootstrap = document.getElementById("barra-bootstrap");
-	var barraGithub = document.getElementById("barra-github");
+	var barraCorel = document.getElementById("barra-corel");
 	var barraGit = document.getElementById("barra-git");
 	var barraBrackets = document.getElementById("barra-brackets");
 	barraHtml.value+=5;
@@ -56,7 +56,7 @@ var barraProgreso= function (){
 	barraJs.value+=5;
 	barraJquery.value+=5;
 	barraBootstrap.value+=5;
-	barraGithub.value+=5;
+	barraCorel.value+=5;
 	barraGit.value+=5;
 	barraBrackets.value+=5;
 }

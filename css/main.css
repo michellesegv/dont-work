@@ -1,321 +1,435 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Raleway');
 /*NAVBAR*/
 .item {
-    z-index: 5;
+	z-index: 5;
 }
 .logo{
-    height: 50px;
-    margin: 15px 30px;
+	height: 50px;
+	margin: 15px 30px;
 }
 .menu{
-    background-color: transparent;
-    color: black  !important;
-    padding-left: 0px;
-    transition: padding , padding-left 1s;
-    z-index: 1000;
-    border: 0px;
-    font-family: Lobster;
-    font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.2);
+	background-color: transparent;
+	color: black  !important;
+	padding-left: 0px;
+	transition: padding , padding-left 1s;
+	z-index: 1000;
+	border: 0px;
+	font-family: Lobster;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .menu-fixed {
-    background-color: #384259 !important;
-    margin:0;
-    color: white !important;
-    width:100%;
-    border: 0  !important;
-    z-index: 1000;
+	background-color: #384259 !important;
+	margin:0;
+	color: white !important;
+	width:100%;
+	border: 0  !important;
+	z-index: 1000;
 }
 a:active{
-    position: relative;
-    top: 5px;
+	position: relative;
+	top: 5px;
 }
 .navbar-default .navbar-nav > li > a{
-    color: white;
-    margin-top: 10px;
+	color: white;
+	margin-top: 10px;
 }
 .navbar-default .navbar-nav > li > a:focus{
-    color: white;
+	color: white;
 }
 .navbar-default .navbar-nav > li > a:active{
-    color: white;
+	color: white;
 }
 .navbar-default .navbar-nav > li > a:visited{
-    color: white;
+	color: white;
 }
 .navbar-default .navbar-nav > li > a:hover{
-    color: #F73859;
+	color: #F73859;
 }
 /*PRESENTACIÓN*/
 .presentacion{
-    background-image: url(../img/fondo1.jpg);
-    text-align: center;
-    padding: 13% 0;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/fondo1.jpg);
+	text-align: center;
+	padding: 13% 0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .presentacion div{
-    margin: 0 auto;
-    width: 310px;
-    font-family: Luckiest Guy;
-    color: white;
-    font-size: 4em;
-    padding: 4% 0;
-    background-color: black;
+	margin: 0 auto;
+	width: 310px;
+	font-family: Luckiest Guy;
+	color: white;
+	font-size: 4em;
+	padding: 4% 0;
+	background-color: black;
 }
 /*¿QUIÉN SOY?*/
 #quien-soy{
-    margin-bottom: 11px;
+	margin-bottom: 76px;
 }
 .titulo{
-    background-color: black;
-    padding: 10px 0;
-    width: 100%;
-    font-family: Luckiest Guy;
-    font-size: 2em;
-    margin: 0 auto;
-    margin-top: 100px;
-    text-align: center;
-    color: white;
+	background-color: black;
+	padding: 10px 0;
+	width: 100%;
+	font-family: Luckiest Guy;
+	font-size: 2em;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+	color: white;
 }
 .contenido-quien-soy{
-    background-color: #C4EDDE;
-    width: 100%;
-    height: auto;
-    padding:28px;
-    margin: auto;
-    font-family: Raleway;
-    font-size: 1.3em;
+	background-color: #C4EDDE;
+	width: 100%;
+	height: auto;
+	padding:28px;
+	margin: auto;
+	font-family: Raleway;
+	font-size: 1.3em;
 }
 .emoji{
-    display: inline-block;
-    height: 26px;
-    text-align: justify;
+	display: inline-block;
+	height: 26px;
+	text-align: justify;
 }
 /*PROYECTOS*/
 #proyectos{
-    background-image: url(../img/fondo2.jpg);
-    padding-bottom: 25px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: url(../img/fondo2.jpg);
+	padding-bottom: 25px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .titulo-proyecto{
-    background-color:#F73859;
-    width: 100%;
-    padding: 10px 0;
-    margin: 20px 0;
-    font-family: Luckiest Guy;
-    text-align: center;
-    color: white;
-    font-size: 1.3em;
+	background-color:#F73859;
+	width: 100%;
+	padding: 10px 0;
+	margin: 20px 0;
+	font-family: Luckiest Guy;
+	text-align: center;
+	color: white;
+	font-size: 1.3em;
 }
 .proyecto{
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 .proyecto-jquery{
-    width: 150px;
-    margin: 20px auto;
-    position: relative;
+	width: 150px;
+	margin: 20px auto;
+	position: relative;
+}
+.proyecto-jquery .boton-link{
+	border: 4px white solid;
+	background-color: #F73859;
+	width: 80%;
+	border-radius: 15px;
+	font-size: 22px;
+	padding: 3%;
+	margin: 30% 0;
+	font-family: Luckiest Guy;
+	color: white;
 }
 .proyecto-img{
-    width: 70%;
-    margin: 20px auto;
-    position: relative;
+	width: 70%;
+	margin: 20px auto;
+	position: relative;
 }
 .titulo-blanco{
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 .boton-link{
-    border: 4px white solid;
-    background-color: #F73859;
-    width: 80%;
-    border-radius: 15px;
-    font-size: 22px;
-    padding: 3%;
-    margin: 8% 0;
-    font-family: Luckiest Guy;
-    color: white;
+	border: 4px white solid;
+	background-color: #F73859;
+	width: 80%;
+	border-radius: 15px;
+	font-size: 22px;
+	padding: 3%;
+	margin: 8% 0;
+	font-family: Luckiest Guy;
+	color: white;
 }
 .boton-link:visited{
-    color: white;
+	color: white;
 }
 .boton-link:focus{
-    color: white;
+	color: white;
 }
 .boton-link:hover{
-    color: white;
+	color: white;
 }
 .links-jquery{
-    width: 180px;
-    margin: auto;
-    position: absolute;
-    z-index: 1;
-    top: 0; left: 0; bottom: 0; right: 0;
-    background: rgba(0, 0, 0, 0.8);
+	width: 180px;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: rgba(0, 0, 0, 0.8);
 }
 .links-jquery .boton-link{
-    margin: 38% 0;
+	margin: 38% 0;
 }
 .links{
-    width: 80%;
-    height: 104%;
-    margin: auto;
-    position: absolute;
-    z-index: 1;
-    top: 0; left: 0; bottom: 0; right: 0;
-    background: rgba(0, 0, 0, 0.8);
+	width: 80%;
+	height: 98%;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: rgba(0, 0, 0, 0.8);
 }
 .ocultar{
-    display: none;
+	display: none;
+}
+.subtitulo-proyecto{
+	display: inline-block;
+	width: 250px;
+	background-color: white;
+	font-family: Luckiest Guy;
+	font-size: 20px;
+	padding: 10px 0;
+	border-radius: 15px;
+
 }
 /*SOBRE MÍ*/
+.sobre-mi{
+	padding-bottom: 80px;
+}
 .img-gustos{
-    margin-top: 24px;
-    width: 100%;
-    height: 250px;
-    background-color: #343434;
+	margin-top: 24px;
+	width: 100%;
+	height: 200px;
 }
 .contenido-gustos{
-    background-color: #F73859;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
-    font-family: Raleway;
-    font-size: 1.2em;
-    margin: 24px auto;
+	background-color: #384259;
+	width: 50%;
+	height: auto;
+	padding: 20px;
+	color: white;
+	border-radius: 15px;
+	font-family: Raleway;
+	font-size: 2em;
+	margin: 94px auto 50px auto;
+}
+.img-sobre-mi{
+	width: 85%;
+}
+.friends{
+	margin: 10%;
 }
 /*Skill*/
 .contenedor-barra-skill{
-    width: 100%;
-    height: 20px;
-    margin: 10px auto;
-    border-radius: 15px;
-    background-color: white;
+	width: 100%;
+	height: 20px;
+	margin: 10px auto;
+	border-radius: 15px;
+	background-color: white;
 }
 .estilo-barra{
-    border-radius: 15px;
+	border-radius: 15px;
 }
 .estilo-barra::-webkit-progress-bar{
-    border-radius: 15px;
-    background-color: transparent;
+	border-radius: 15px;
+	background-color: transparent;
 }
 .estilo-barra::-webkit-progress-value{
-    background-color: #F73859;
-    border-radius: 15px;
-    height: 18px;
+	background-color: #F73859;
+	border-radius: 15px;
+	height: 18px;
 }
 .barra-html{
-    width: 85%;
+	width: 85%;
 }
 .barra-css{
-    width: 85%;
+	width: 85%;
 }
 .barra-js{
-    width: 50%;
+	width: 50%;
 }
 .barra-jquery{
-    width: 35%;
+	width: 35%;
 }
 .barra-bootstrap{
-    width: 80%;
+	width: 80%;
 }
-.barra-github{
-    width: 90%;
+.barra-corel{
+	width: 80%;
 }
 .barra-git{
-    width: 85%;
+	width: 85%;
 }
 .barra-brackets{
-    width: 95%;
+	width: 95%;
 }
 .div-img-skill{
-    width: 120px;
-    margin: 0 auto;
-    height: 220px;
+	width: 120px;
+	margin: 0 auto;
+	height: 220px;
 }
 .div-img-skill-chica{
-    width: 120px;
-    margin: 0 auto;
-    height: 170px;
+	width: 120px;
+	margin: 0 auto;
+	height: 170px;
 }
 .img-skill{
-    width: 100%;
-    margin:20px 0;
+	width: 100%;
+	margin:20px 0;
+}
+.corel{
+	width: 80%;
 }
 #skills{
-    background-color: black;
-    padding-bottom: 30px;
+	background-color: black;
+	padding-bottom: 50px;
 }
 .titulo-skill{
-    background-color:#F73859;
+	background-color:#F73859;
 }
 .subtitulo-skill{
-    color: white;
-    font-family: Raleway;
-    font-size: 20px;
+	color: white;
+	font-family: Raleway;
+	font-size: 20px;
 }
 .img-skill:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
 }
 /*Contáctame*/
 #contactame{
-    background-color:#F73859;
-    color: white;
-    padding: 30px 0 10px 0;
+	background-color:#F73859;
+	color: white;
+	padding: 100px 0 50px 0;
 }
 .titulo-contactame{
-    font-family: Luckiest Guy;
-    font-size: 60px;
+	font-family: Luckiest Guy;
+	font-size: 60px;
 }
 .icono{
-    font-size: 30px;
-    margin: 0 15px;
+	font-size: 30px;
+	margin: 0 15px;
 }
 h3 a{
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 h3 a:hover{
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 h3 a:active{
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 h3 a:visited{
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 h3 a:focus{
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 h3{
-    display: inline-block;
-    font-family: Raleway;
-    font-size: 18px;
+	display: inline-block;
+	font-family: Raleway;
+	font-size: 18px;
 }
-.mapa{
-    margin-top: 10px;
+.img-footer{
+	width: 70%;
 }
 /*LOADER*/
 .pre-load{
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(../img/cargar.gif) center no-repeat #fff;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/cargar.gif) center no-repeat #fff;
+}
+@media screen and (max-width : 770px){
+	.ocultar{
+	display: inline-block;
+	}
+	.links{
+	width: 92%;
+	height: 76%;
+	background: rgba(0, 0, 0, 0.3);
+	}
+	.boton-link{
+	background: rgba(240, 56, 87, 0.7);
+	font-size: 24px;
+	padding: 2%;
+	margin: 9% 0;
+	border: 3px white solid;
+	}
+	.links-jquery{
+	width: 180px;
+	margin: auto;
+	position: absolute;
+	z-index: 1;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background: rgba(0, 0, 0, 0.3);
+	}
+	.titulo-contactame{
+		font-size: 50px;
+	}
+	.contenido-quien-soy{
+	font-size: 1.6em;
+	}
+	#quien-soy{
+	margin-bottom: 50px;
+	}
+	.presentacion{
+		padding: 54% 0;
+	}
+	  .proyecto-img{
+		width: 100%;
+	}
+	.img-sobre-mi {
+	width: 59%;
+	}
+}
+@media screen and (max-width : 320px){
+	.titulo-contactame{
+		font-size: 50px;
+	}
+	.contenido-quien-soy{
+	font-size: 1.1em;
+	}
+	.friends {
+	margin: 18% 0;
+	}
+	.presentacion{
+		padding: 60% 0;
+	}
+	.links{
+	width: 86%;
+	height: 58%;
+	}
+	.boton-link{
+	font-size: 15px;
+	padding: 2%;
+	margin: 5% 0;
+	}
+	.subtitulo-proyecto {
+	display: inline-block;
+	width: 150px;
+	font-size: 18px;
+	padding: 10px 0;
+	border-radius: 10px;
+	}
+	.proyecto-jquery .boton-link {
+	border: 3px white solid;
+	width: 80%;
+	font-size: 24px;
+	margin: 20% 0;
+	font-family: Luckiest Guy;
+	color: white;
+	}
+
 }
