@@ -1,268 +1,321 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Raleway');
 /*NAVBAR*/
 .item {
-	z-index: 5;
-}
-.subtitulo-navbar{
-	display: inline-block;
-	margin: 30px 1%;
-	font-size: 1.4em;
-	font-family: Lobster;
-	color: black;
+    z-index: 5;
 }
 .logo{
-	height: 50px;
-	margin: 15px 30px;
+    height: 50px;
+    margin: 15px 30px;
+}
+.menu{
+    background-color: transparent;
+    color: black  !important;
+    padding-left: 0px;
+    transition: padding , padding-left 1s;
+    z-index: 1000;
+    border: 0px;
+    font-family: Lobster;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.menu-fixed {
+    background-color: #384259 !important;
+    margin:0;
+    color: white !important;
+    width:100%;
+    border: 0  !important;
+    z-index: 1000;
+}
+a:active{
+    position: relative;
+    top: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+    color: white;
+    margin-top: 10px;
+}
+.navbar-default .navbar-nav > li > a:focus{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:active{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:visited{
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #F73859;
 }
 /*PRESENTACIÓN*/
 .presentacion{
-	background-image: url(../img/programacion.jpg);
-	text-align: center;
-	padding: 13% 0;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-.navbar-default .navbar-nav > li > a{
-	color: white;
-	margin-top: 10px;
+    background-image: url(../img/fondo1.jpg);
+    text-align: center;
+    padding: 13% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .presentacion div{
-	margin: 0 auto;
-	width: 310px;
-	font-family: Luckiest Guy;
-	color: white;
-	font-size: 4em;
-	padding: 4% 0;
-	background-color: black;
+    margin: 0 auto;
+    width: 310px;
+    font-family: Luckiest Guy;
+    color: white;
+    font-size: 4em;
+    padding: 4% 0;
+    background-color: black;
 }
 /*¿QUIÉN SOY?*/
 #quien-soy{
-	margin-bottom: 11px;
+    margin-bottom: 11px;
 }
 .titulo{
-	background-color: black;
-	padding: 10px 0;
-	width: 100%;
-	font-family: Luckiest Guy;
-	font-size: 2em;
-	margin: 0 auto;
-	margin-top: 100px;
-	text-align: center;
-	color: white;
-}
-.logo-titulo{
-	width: 200px;
-	height: auto;
-	margin: 30px auto 15px auto;
-}
-.logo-titulo:hover{
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+    background-color: black;
+    padding: 10px 0;
+    width: 100%;
+    font-family: Luckiest Guy;
+    font-size: 2em;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
 }
 .contenido-quien-soy{
-	background-color: #C4EDDE;
-	width: 100%;
-	height: auto;
-	padding: 20px;
-	font-family: Raleway;
-	font-size: 1.2em;
+    background-color: #C4EDDE;
+    width: 100%;
+    height: auto;
+    padding:28px;
+    margin: auto;
+    font-family: Raleway;
+    font-size: 1.3em;
+}
+.emoji{
+    display: inline-block;
+    height: 26px;
+    text-align: justify;
 }
 /*PROYECTOS*/
 #proyectos{
-	background-image: url(../img/fondox.gif);
-	padding-bottom: 25px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-image: url(../img/fondo2.jpg);
+    padding-bottom: 25px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.titulo-html-css{
-	background-color:#F73859;
-	width: 100%;
-	padding: 10px 0;
-	margin: 20px 0;
-	font-family: Luckiest Guy;
-	text-align: center;
-	color: white;
-	font-size: 1.3em;
+.titulo-proyecto{
+    background-color:#F73859;
+    width: 100%;
+    padding: 10px 0;
+    margin: 20px 0;
+    font-family: Luckiest Guy;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
 }
-.proyecto-html-css{
-	width: 100%;
-	background-color: #343434;
-	height: 300px;
+.proyecto{
+    width: 100%;
+    text-align: center;
 }
-.proyecto-html-css:hover{
-	-webkit-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
+.proyecto-jquery{
+    width: 150px;
+    margin: 20px auto;
+    position: relative;
+}
+.proyecto-img{
+    width: 70%;
+    margin: 20px auto;
+    position: relative;
 }
 .titulo-blanco{
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
+}
+.boton-link{
+    border: 4px white solid;
+    background-color: #F73859;
+    width: 80%;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 3%;
+    margin: 8% 0;
+    font-family: Luckiest Guy;
+    color: white;
+}
+.boton-link:visited{
+    color: white;
+}
+.boton-link:focus{
+    color: white;
+}
+.boton-link:hover{
+    color: white;
+}
+.links-jquery{
+    width: 180px;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.links-jquery .boton-link{
+    margin: 38% 0;
+}
+.links{
+    width: 80%;
+    height: 104%;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+.ocultar{
+    display: none;
 }
 /*SOBRE MÍ*/
 .img-gustos{
-	margin-top: 24px;
-	width: 100%;
-	height: 250px;
-	background-color: #343434;
+    margin-top: 24px;
+    width: 100%;
+    height: 250px;
+    background-color: #343434;
 }
 .contenido-gustos{
-	background-color: #F73859;
-	width: 100%;
-	height: auto;
-	padding: 20px;
-	color: white;
-	border-radius: 15px;
-	font-family: Raleway;
-	font-size: 1.2em;
-	margin: 24px auto;
+    background-color: #F73859;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+    font-family: Raleway;
+    font-size: 1.2em;
+    margin: 24px auto;
 }
-a:active{
-	position: relative;
-	top: 5px;
+/*Skill*/
+.contenedor-barra-skill{
+    width: 100%;
+    height: 20px;
+    margin: 10px auto;
+    border-radius: 15px;
+    background-color: white;
+}
+.estilo-barra{
+    border-radius: 15px;
+}
+.estilo-barra::-webkit-progress-bar{
+    border-radius: 15px;
+    background-color: transparent;
+}
+.estilo-barra::-webkit-progress-value{
+    background-color: #F73859;
+    border-radius: 15px;
+    height: 18px;
+}
+.barra-html{
+    width: 85%;
+}
+.barra-css{
+    width: 85%;
+}
+.barra-js{
+    width: 50%;
+}
+.barra-jquery{
+    width: 35%;
+}
+.barra-bootstrap{
+    width: 80%;
+}
+.barra-github{
+    width: 90%;
+}
+.barra-git{
+    width: 85%;
+}
+.barra-brackets{
+    width: 95%;
+}
+.div-img-skill{
+    width: 120px;
+    margin: 0 auto;
+    height: 220px;
+}
+.div-img-skill-chica{
+    width: 120px;
+    margin: 0 auto;
+    height: 170px;
+}
+.img-skill{
+    width: 100%;
+    margin:20px 0;
+}
+#skills{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.titulo-skill{
+    background-color:#F73859;
+}
+.subtitulo-skill{
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+}
+.img-skill:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 /*Contáctame*/
-.se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: url(../img/loader-64x/Preloader_3.gif) center no-repeat #fff;
-}
 #contactame{
-	background-color:#F73859;
+    background-color:#F73859;
+    color: white;
+    padding: 30px 0 10px 0;
 }
-.titulo-footer{
-	width: 50%;
-	margin: 0 auto;
+.titulo-contactame{
+    font-family: Luckiest Guy;
+    font-size: 60px;
 }
-/*SKILLS*/
-*,
-*:before,
-*:after {
-	box-sizing: border-box;
+.icono{
+    font-size: 30px;
+    margin: 0 15px;
 }
-#skills {
-	font-size: 16px;
+h3 a{
+    text-decoration: none;
+    color: white;
 }
-.set-size {
-	font-size: 10em;
+h3 a:hover{
+    text-decoration: none;
+    color: white;
 }
-.pie-wrapper {
-	height: 1em;
-	width: 1em;
-	float: left;
-	margin: 15px;
-	position: relative;
+h3 a:active{
+    color: white;
+    text-decoration: none;
 }
-.pie-wrapper .pie {
-	height: 100%;
-	width: 100%;
-	clip: rect(0, 1em, 1em, 0.5em);
-	left: 0;
-	position: absolute;
-	top: 0;
+h3 a:visited{
+    color: white;
+    text-decoration: none;
 }
-.pie-wrapper .pie .half-circle {
-	height: 100%;
-	width: 100%;
-	border: 0.1em solid #3498db;
-	border-radius: 50%;
-	clip: rect(0, 0.5em, 1em, 0);
-	left: 0;
-	position: absolute;
-	top: 0;
+h3 a:focus{
+    color: white;
+    text-decoration: none;
 }
-.pie-wrapper .label {
-	background: #34495e;
-	border-radius: 50%;
-	bottom: 0.4em;
-	color: #ecf0f1;
-	cursor: default;
-	display: block;
-	font-size: 0.25em;
-	left: 0.4em;
-	line-height: 2.6em;
-	position: absolute;
-	right: 0.4em;
-	text-align: center;
-	top: 0.4em;
+h3{
+    display: inline-block;
+    font-family: Raleway;
+    font-size: 18px;
 }
-.pie-wrapper .label .smaller {
-	color: #bdc3c7;
-	font-size: .45em;
-	padding-bottom: 20px;
-	vertical-align: super;
+.mapa{
+    margin-top: 10px;
 }
-.pie-wrapper .shadow {
-	height: 100%;
-	width: 100%;
-	border: 0.1em solid #bdc3c7;
-	border-radius: 50%;
-}
-.pie-wrapper.style-2 .label {
-	background: none;
-	color: #7f8c8d;
-}
-.pie-wrapper.progress-45 .pie .half-circle {
-	border-color: #1abc9c;
-}
-.pie-wrapper.progress-45 .pie .left-side {
-	-webkit-transform: rotate(162deg);
-	transform: rotate(162deg);
-}
-.pie-wrapper.progress-75 .pie {
-	clip: rect(auto, auto, auto, auto);
-}
-.pie-wrapper.progress-75 .pie .right-side {
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-.pie-wrapper.progress-75 .pie .half-circle {
-	border-color: #8e44ad;
-}
-.pie-wrapper.progress-75 .pie .left-side {
-	-webkit-transform: rotate(270deg);
-	transform: rotate(270deg);
-}
-.pie-wrapper.progress-95 .pie {
-	clip: rect(auto, auto, auto, auto);
-}
-.pie-wrapper.progress-95 .pie .right-side {
-	-webkit-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
-.pie-wrapper.progress-95 .pie .half-circle {
-	border-color: #e74c3c;
-}
-.pie-wrapper.progress-95 .pie .left-side {
-	-webkit-transform: rotate(342deg);
-	transform: rotate(342deg);
-}
-.menu{
-	background-color: transparent;
-	color: black  !important;
-	padding-left: 0px;
-	transition: padding , padding-left 1s;
-	z-index: 1000;
-	border: 0px;
-	font-family: Lobster;
-	font-size: 30px;
-}
-.menu-fixed {
-	background-color: #384259 !important;
-	margin:0;
-	color: white !important;
-	width:100%;
-	border: 0  !important;
-	z-index: 1000;
-}
-.blanco{
-	color: white !important;
+/*LOADER*/
+.pre-load{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../img/cargar.gif) center no-repeat #fff;
 }

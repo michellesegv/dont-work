@@ -6,13 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="img/ms.ico">
+        <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="icomoon/style.css">
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div class="se-pre-con"></div>
-        <nav class="navbar navbar-default navbar-fixed-top menu ">
+        <div class="pre-load"></div>
+        <nav class="navbar navbar-default navbar-fixed-top menu">
             <div class="container-fluid menu">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -21,20 +22,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href=#><img class="logo" src="img/escudo.png"></a>
+                    <a href=#><img class="logo" src="img/escudo.png" alt="mi logo"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#quien-soy">¿Quién soy?</a></li>
+                        <li><a href="#quien-soy">¡Hola!</a></li>
                         <li><a href="#proyectos">Proyectos</a></li>
-                        <li><a href="#sobre-mi">+ Sobre mí</a></li>
+                        <li><a href="#sobre-mi">Sobre mí</a></li>
+                        <li><a href="#skills">Skills</a></li>
                         <li><a href="#contactame">Contáctame</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <header class="presentacion">
-            <div>MICHELLE<br>SEGUIL</div>
+            <div class="wow bounceInDown">MICHELLE<br>SEGUIL</div>
         </header>
         <section class="bajando" id="quien-soy">
             <div class="container">
@@ -42,8 +44,8 @@
                     ¿Quién soy?
                 </div>
                 <div class="row text-center">
-                    <div class="col-lg-9">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div id="carousel-example-generic" class="carousel slide wow bounceInLeft" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -51,25 +53,27 @@
                             </ol>
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="img/profile-original7.jpg" alt="...">
+                                    <img src="img/mis-fotos/profile-original7.jpg" alt="yo mitad">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/yo-derecha.jpg" alt="...">
+                                    <img src="img/mis-fotos/yo-derecha.jpg" alt="yo a la derecha">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/mitad-yo.jpg" alt="...">
+                                    <img src="img/mis-fotos/mitad-yo.jpg" alt="yo mitad">
                                     <div class="carousel-caption">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="contenido-quien-soy">¡Hola! Mi nombre es Michelle y soy coder de pasión.</div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-justify">
+                        <div class="contenido-quien-soy wow bounceInRight">¡Hola! Mi nombre es Michelle y soy coder de pasión.<img src="img/emojis/lap.png" alt="laptop" class="emoji"><img src="img/emojis/chica.png" alt="chica" class="emoji"><img src="img/emojis/musculo.png" alt="brazo" class="emoji"><br>
+                            Tengo 18 años y  vivo en Lima.<img src="img/emojis/joven.png" alt="joven" class="emoji"><img src="img/emojis/lima.png" alt="Lima" class="emoji"><br>Desde hace dos años conozco este maravilloso e interesante mundo de la programación y a partir de ese momento, a partir de mi primer "¡Hola mundo!", no he parado de mi búsqueda de conocimiento.<img src="img/emojis/conocimientos.png" alt="libros" class="emoji"><img src="img/emojis/lentes.png" alt="lentes" class="emoji"><br>Y es así como llegué a Laboratoria, un lugar en el que estoy aprendiendo HTML, CSS, JS, Jquery, Bootstrap, Materialize, entre otras cosas; además de desarrolar habilidades socio-emocionales y desarrolando la metodología Agil en el trabajo.<img src="img/emojis/reyna.png" alt="reyna" class="emoji"><img src="img/emojis/nave.png" alt="nave" class="emoji"><img src="img/emojis/corazon.png" alt="corazon" class="emoji"><img src="img/emojis/viene.png" alt="soon" class="emoji">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,43 +81,111 @@
         <section id="proyectos">
             <div class="container">
                 <div class="titulo titulo-blanco">Mis proyectos</div>
-                <div class="row">
+                <div class="row  wow zoomIn">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="titulo-html-css">HTML y CSS</div>
+                        <div class="titulo-proyecto">HTML y CSS</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/escuela-danza/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/escuela-danza" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-escuela-danza.png" alt="Proyecto Escuela de danza" class="proyecto-img">
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/responsive-blog/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/responsive-blog" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-responsive-blog.png" alt="Proyecto Responsive blog" class="proyecto-img">
+                        </div>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://sthecrash.github.io/republica/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/sthecrash/republica" target="_blank">Código</a>
+
+                            </div>
+                            <img src="img/responsive/responsive-republica.png" alt="Proyecto La República" class="proyecto-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/ecomunidad/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/ecomunidad" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-ecomunidad.png" alt="Proyecto Ecomunidad" class="proyecto-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow rotateInDownRight">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="titulo-html-css">Javascript</div>
+                        <div class="titulo-proyecto">Javascript</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/proyectojs/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/proyectojs" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-chircholoco.png" alt="Proyecto Chircholoco" class="proyecto-img">
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/trello/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/trello" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-trello.png" alt="Proyecto Trello" class="proyecto-img">
+                        </div>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/twitter/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/twitter" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-twittrafico.png" alt="Proyecto Twitter" class="proyecto-img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="proyecto">
+                            <div class="links ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/todoapp/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/todoapp" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/responsive-to-do-app.png" alt="Proyecto To do app" class="proyecto-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow flipInY">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="titulo-html-css">Jquery</div>
+                        <div class="titulo-proyecto">Jquery</div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                        <div class="proyecto-html-css"></div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <div class="proyecto">
+                            <div class="links-jquery ocultar">
+                                <a class="btn boton-link" href="https://michellesv.github.io/lyft/" target="_blank">Página</a><br>
+                                <a class="btn boton-link" href="https://github.com/MichelleSV/lyft" target="_blank">Código</a>
+                            </div>
+                            <img src="img/responsive/lyft.png" alt="Proyecto Lyft" class="proyecto-jquery">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,37 +215,80 @@
         </section>
         <section id="skills">
             <div class="container">
-                <div class="row ">
-                    <div class="set-size charts-container">
-                        <div class="col-lg-4 text-center">
-                            <div class="pie-wrapper progress-45 style-2">
-                                <span class="label">45<span class="smaller">%</span></span>
-                                <div class="pie">
-                                    <div class="left-side half-circle"></div>
-                                    <div class="right-side half-circle"></div>
-                                </div>
-                                <div class="shadow"></div>
-                            </div>
+                <div class="titulo titulo-skill progreso-bar">Skills</div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill">
+                            <img src="img/skills/html2.png" alt="HTML" class="img-skill">
                         </div>
-                        <div class="col-lg-4 text-center">
-                            <div class="pie-wrapper progress-75 style-2">
-                                <span class="label">75<span class="smaller">%</span></span>
-                                <div class="pie">
-                                    <div class="left-side half-circle"></div>
-                                    <div class="right-side half-circle"></div>
-                                </div>
-                                <div class="shadow"></div>
-                            </div>
+                        <p class="text-center subtitulo-skill">85%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-html" class="estilo-barra barra-html"></progress>
                         </div>
-                        <div class="col-lg-4 text-center">
-                            <div class="pie-wrapper progress-95 style-2">
-                                <span class="label">95<span class="smaller">%</span></span>
-                                <div class="pie">
-                                    <div class="left-side half-circle"></div>
-                                    <div class="right-side half-circle"></div>
-                                </div>
-                                <div class="shadow"></div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill">
+                            <img src="img/skills/css.png" alt="CSS" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">85%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-css" class="estilo-barra barra-css"></progress>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill">
+                            <img src="img/skills/js.png" alt="Javascript" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">50%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-js" class="estilo-barra barra-js"></progress>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill">
+                            <img src="img/skills/jquery2.png" alt="Jquery" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">35%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-jquery" class="estilo-barra barra-jquery"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill-chica">
+                            <img src="img/skills/bootstrap.png" alt="Bootstrap" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">80%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-bootstrap" class="estilo-barra barra-bootstrap"></progress>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill-chica">
+                            <img src="img/skills/github.png" alt="Github" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">90%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-github" class="estilo-barra barra-github"></progress>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill-chica">
+                            <img src="img/skills/git.png" alt="Git" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">85%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-git" class="estilo-barra barra-git"></progress>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                        <div class="div-img-skill-chica">
+                            <img src="img/skills/brackets.png" alt="Brackets" class="img-skill">
+                        </div>
+                        <p class="text-center subtitulo-skill">95%</p>
+                        <div class="contenedor-barra-skill">
+                            <progress value="0" max="100" id="barra-brackets" class="estilo-barra barra-brackets"></progress>
                         </div>
                     </div>
                 </div>
@@ -182,21 +297,26 @@
         <footer id="contactame">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <i class="fa "></i>
+                    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 text-center">
+                        <div class="titulo-contactame">CONTÁCTAME</div>
+                        <div class="links-contacto">
+                            <h3><a href="www.linkedin.com/in/michellesegv" target="_blank"><i class="icon-linkedin icono"></i>Michelle Seguil</a></h3><br>
+                            <h3><a href="https://github.com/MichelleSV" target="_blank"><i class="icon-github icono"></i>MichelleSV</a></h3><br>
+                            <h3><i class="icon-google3 icono"></i><a href="mailto:seguilvilchezmichelle@email.com">¡Evíame un correo!:<br><br>seguilvilchezmichelle@gmail.com</a></h3><br>
+                            <h3><i class="icon-mobile icono"></i>+51 921013769</h3>
+                        </div>
                     </div>
-                    <div class="col-lg-4">
-
-                    </div>
-                    <div class="col-lg-4">
-                        <img class="titulo-footer" src="img/titulo.png">
+                    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
+                        <h3><i class="icon-location2 icono"></i>Jr. Galdeano y Mendoza 638, Cercado de Lima</h3>
+                        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.0276356802906!2d-77.06493928563582!3d-12.041618391470724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ced3506665e3%3A0x2c24a51f7337f8b2!2sGaldeano+Y+Mendoza+(Ellas+Aguirre)+%26+Jr.+Jose+Celendon%2C+Distrito+de+Lima+15079!5e0!3m2!1ses-419!2spe!4v1478065883566" width="400" height="300" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </footer>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
