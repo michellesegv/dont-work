@@ -37,7 +37,7 @@ $(function(){
 $(function(){
 	var altura = $(".progreso-bar").offset().top;
 	$(window).on("scroll", function(){
-		if ($(window).scrollTop()>altura-200){
+		if ($(window).scrollTop()>altura-130){
 			setInterval(barraProgreso, 100);
 		}
 	});
