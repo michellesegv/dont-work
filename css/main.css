@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Lobster+Two|Oswald|Pontano+Sans');
 /*LOADER*/
 .pre-load{
 	position: fixed;
@@ -25,7 +25,7 @@
 	transition: padding , padding-left 1s;
 	z-index: 1000;
 	border: 0px;
-	font-family: Lobster;
+	font-family: Lobster Two;
 	font-size: 30px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
@@ -62,7 +62,7 @@ a:active{
 .presentacion{
 	background-image: url(../img/fondos/fondo1.jpg);
 	text-align: center;
-	padding: 13% 0;
+	padding: 9% 0;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -71,13 +71,28 @@ a:active{
 .presentacion div{
 	margin: 0 auto;
 	width: 310px;
-	font-family: Luckiest Guy;
+	font-family: Lobster;
 	color: white;
 	font-size: 4em;
 	padding: 4% 0;
 	background-color: black;
 }
-
+.frase{
+	background-color: #384259;
+	color: white;
+	text-align: center;
+	padding: 39px 40px;
+	font-family: Oswald;
+}
+.frase img{
+	display: inline-block;
+	width: 110px;
+	vertical-align: top;
+}
+.frase h1{
+	display: inline-block;
+	margin: 13px 0 0 10px;
+}
 /*¿QUIÉN SOY?*/
 #quien-soy{
 	margin-bottom: 76px;
@@ -86,10 +101,11 @@ a:active{
 	background-color: black;
 	padding: 10px 0;
 	width: 100%;
-	font-family: Luckiest Guy;
+	font-family: Oswald;
 	font-size: 2em;
 	margin: 0 auto;
 	margin-top: 100px;
+	margin-bottom: 30px;
 	text-align: center;
 	color: white;
 }
@@ -99,8 +115,13 @@ a:active{
 	height: auto;
 	padding:28px;
 	margin: auto;
-	font-family: Raleway;
-	font-size: 1.3em;
+	font-family: Pontano Sans;
+	font-size: 1.4em;
+}
+.hola-mundo{
+	width: 70%;
+	display: block;
+	margin: 5px auto;
 }
 .emoji{
 	display: inline-block;
@@ -178,7 +199,7 @@ a:active{
 }
 .subtitulo-skill{
 	color: white;
-	font-family: Raleway;
+	font-family: Pontano Sans;
 	font-size: 20px;
 }
 .img-skill:hover{
@@ -201,7 +222,7 @@ a:active{
 	width: 100%;
 	padding: 10px 0;
 	margin: 20px 0;
-	font-family: Luckiest Guy;
+	font-family: Pontano Sans;
 	text-align: center;
 	color: white;
 	font-size: 1.3em;
@@ -223,7 +244,7 @@ a:active{
 	font-size: 22px;
 	padding: 3%;
 	margin: 30% 0;
-	font-family: Luckiest Guy;
+	font-family: Oswald;
 	color: white;
 }
 .proyecto-img{
@@ -243,7 +264,7 @@ a:active{
 	font-size: 22px;
 	padding: 3%;
 	margin: 8% 0;
-	font-family: Luckiest Guy;
+	font-family: Pontano Sans;
 	color: white;
 }
 .boton-link:visited{
@@ -282,7 +303,7 @@ a:active{
 	display: inline-block;
 	width: 250px;
 	background-color: white;
-	font-family: Luckiest Guy;
+	font-family: Oswald;
 	font-size: 20px;
 	padding: 10px 0;
 	border-radius: 15px;
@@ -305,17 +326,10 @@ a:active{
 	padding: 20px;
 	color: white;
 	border-radius: 15px;
-	font-family: Raleway;
+	font-family: Pontano Sans;
 	font-size: 2em;
 	margin: 94px auto 50px auto;
 }
-.img-sobre-mi{
-	width: 85%;
-}
-.friends{
-	margin: 10%;
-}
-
 /*CONTÁCTAME*/
 #contactame{
 	background-color: #C4EDDE;
@@ -323,7 +337,7 @@ a:active{
 	padding: 100px 0 50px 0;
 }
 .titulo-contactame{
-	font-family: Luckiest Guy;
+	font-family: Oswald;
 	font-size: 60px;
 }
 .icono{
@@ -352,7 +366,7 @@ h3 a:focus{
 }
 h3{
 	display: inline-block;
-	font-family: Raleway;
+	font-family: Pontano Sans;
 	font-size: 18px;
 }
 .img-footer{
@@ -450,7 +464,7 @@ h3{
 	width: 80%;
 	font-size: 24px;
 	margin: 20% 0;
-	font-family: Luckiest Guy;
+	font-family: Oswald;
 	color: white;
 	}
 	.navbar-toggle{
