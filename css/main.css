@@ -73,7 +73,7 @@ a:active{
 	width: 310px;
 	font-family: Lobster;
 	color: white;
-	font-size: 4em;
+	font-size: 52px;
 	padding: 4% 0;
 	background-color: black;
 }
@@ -81,7 +81,7 @@ a:active{
 	background-color: #384259;
 	color: white;
 	text-align: center;
-	padding: 39px 40px;
+	padding: 30px 40px;
 	font-family: Oswald;
 }
 .frase img{
@@ -102,7 +102,7 @@ a:active{
 	padding: 10px 0;
 	width: 100%;
 	font-family: Oswald;
-	font-size: 2em;
+	font-size: 25px;
 	margin: 0 auto;
 	margin-top: 100px;
 	margin-bottom: 30px;
@@ -116,7 +116,7 @@ a:active{
 	padding:28px;
 	margin: auto;
 	font-family: Pontano Sans;
-	font-size: 1.4em;
+	font-size: 18px;
 }
 .hola-mundo{
 	width: 70%;
@@ -129,7 +129,7 @@ a:active{
 	text-align: justify;
 }
 
-/*HABILIDADES*/
+/*Conocimientos*/
 .contenedor-barra-skill{
 	width: 100%;
 	height: 20px;
@@ -156,10 +156,10 @@ a:active{
 	width: 85%;
 }
 .barra-js{
-	width: 50%;
+	width: 75%;
 }
 .barra-jquery{
-	width: 35%;
+	width: 70%;
 }
 .barra-bootstrap{
 	width: 80%;
@@ -170,25 +170,27 @@ a:active{
 .barra-git{
 	width: 85%;
 }
-.barra-brackets{
-	width: 95%;
+.barra-sass{
+	width: 50%;
 }
 .div-img-skill{
 	width: 120px;
 	margin: 0 auto;
-	height: 220px;
+	text-align: center;
+	height: 165px;
 }
 .div-img-skill-chica{
 	width: 120px;
 	margin: 0 auto;
-	height: 170px;
+	height: 140px;
+	text-align: center;
 }
 .img-skill{
-	width: 100%;
+	width: 80%;
 	margin:20px 0;
 }
 .corel{
-	width: 80%;
+	width: 60%;
 }
 #skills{
 	background-color: black;
@@ -307,34 +309,31 @@ a:active{
 	font-size: 20px;
 	padding: 10px 0;
 	border-radius: 15px;
-
 }
 
 /*SOBRE MÍ*/
 .sobre-mi{
-	padding-bottom: 80px;
+	padding: 0 0 38px 0;
+	text-align: center;
 }
-.img-gustos{
-	margin-top: 24px;
+.img-sobre-mi{
+	width: 80%;
+}
+.habilidad-info{
+	background-color: #F73859;
 	width: 100%;
-	height: 200px;
-}
-.contenido-gustos{
-	background-color: #384259;
-	width: 50%;
 	height: auto;
-	padding: 20px;
+	padding: 30px 25px;
 	color: white;
-	border-radius: 15px;
-	font-family: Pontano Sans;
-	font-size: 2em;
-	margin: 94px auto 50px auto;
+	margin-bottom: 25px;
+	font-family:Pontano Sans;
+	font-size: 18px;
 }
 /*CONTÁCTAME*/
 #contactame{
 	background-color: #C4EDDE;
 	color: #2A363B;
-	padding: 100px 0 50px 0;
+	padding: 70px 0;
 }
 .titulo-contactame{
 	font-family: Oswald;
@@ -344,9 +343,34 @@ a:active{
 	font-size: 30px;
 	margin: 0 15px;
 }
+.icono2{
+	font-size: 20px;
+	margin: 0 15px;
+}
+.btn-lg{
+	margin-top: 20px;
+	background-color: #F73859;
+	border: 0;
+}
+.btn-lg:hover{
+	background-color: #F73859;
+}
+.btn-lg:active{
+	background-color: #F73859;
+}
+.btn-lg:focus{
+	background-color: #F73859;
+}
+.btn-lg:visited{
+	background-color: #F73859;
+}
+.btn-lg:active:focus{
+	background-color: #F73859;
+}
 h3 a{
 	text-decoration: none;
 	color: #2A363B;
+	font-size: 20px;
 }
 h3 a:hover{
 	text-decoration: none;

@@ -50,7 +50,7 @@ var barraProgreso= function (){
 	var barraBootstrap = document.getElementById("barra-bootstrap");
 	var barraCorel = document.getElementById("barra-corel");
 	var barraGit = document.getElementById("barra-git");
-	var barraBrackets = document.getElementById("barra-brackets");
+	var barraSass = document.getElementById("barra-sass");
 	barraHtml.value+=5;
 	barraCss.value+=5;
 	barraJs.value+=5;
@@ -58,7 +58,7 @@ var barraProgreso= function (){
 	barraBootstrap.value+=5;
 	barraCorel.value+=5;
 	barraGit.value+=5;
-	barraBrackets.value+=5;
+	barraSass.value+=5;
 }
 //Mostrar links de proyectos
 $(".proyecto").hover(function(){
