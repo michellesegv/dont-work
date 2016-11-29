@@ -4,18 +4,18 @@ $(window).load(function() {
 });
 //Smooth Scrolling
 $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
+	$('a[href*="#"]:not([href="#"])').click(function() {
 	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-	  var target = $(this.hash);
-	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-	  if (target.length) {
+		var target = $(this.hash);
+		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		if (target.length) {
 		$('html, body').animate({
-		  scrollTop: target.offset().top
+			scrollTop: target.offset().top
 		}, 1000);
 		return false;
-	  }
+		}
 	}
-  });
+	});
 });
 //Wow
 new WOW().init();
@@ -24,7 +24,7 @@ $(function(){
 	var altura = $(".bajando").offset().top;
 
 	$(window).on("scroll", function(){
-		if ($(window).scrollTop()>altura-3){
+		if ($(window).scrollTop()>altura-60){
 			$(".menu").addClass("menu-fixed");
 			$(".navbar-right").children().children().addClass("blanco");
 		} else {
