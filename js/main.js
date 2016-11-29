@@ -24,7 +24,7 @@ $(function(){
 	var altura = $(".bajando").offset().top;
 
 	$(window).on("scroll", function(){
-		if ($(window).scrollTop()>altura-10){
+		if ($(window).scrollTop()>altura-3){
 			$(".menu").addClass("menu-fixed");
 			$(".navbar-right").children().children().addClass("blanco");
 		} else {

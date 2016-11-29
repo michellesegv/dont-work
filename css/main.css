@@ -15,8 +15,8 @@
 	z-index: 5;
 }
 .logo{
-	height: 50px;
-	margin: 15px 30px;
+	height: 40px;
+	margin: 15px 5px 15px 30px ;
 }
 .menu{
 	background-color: transparent;
@@ -26,7 +26,7 @@
 	z-index: 1000;
 	border: 0px;
 	font-family: Lobster Two;
-	font-size: 30px;
+	font-size: 27px;
 	background-color: rgba(0, 0, 0, 0.2);
 }
 .menu-fixed {
@@ -62,7 +62,7 @@ a:active{
 .presentacion{
 	background-image: url(../img/fondos/fondo1.jpg);
 	text-align: center;
-	padding: 9% 0;
+	padding: 10% 0;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -432,9 +432,9 @@ h3{
 	margin-bottom: 50px;
 	}
 	.presentacion{
-		padding: 54% 0;
+		padding: 42% 0;
 	}
-	  .proyecto-img{
+	.proyecto-img{
 		width: 100%;
 	}
 	.img-sobre-mi {
