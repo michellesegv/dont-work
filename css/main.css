@@ -62,7 +62,7 @@ a:active{
 .presentacion{
 	background-image: url(../img/fondos/fondo1.jpg);
 	text-align: center;
-	padding: 10% 0;
+	padding: 9% 0;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -333,7 +333,7 @@ a:active{
 #contactame{
 	background-color: #C4EDDE;
 	color: #2A363B;
-	padding: 70px 0;
+	padding: 70px 0 30px 0;
 }
 .titulo-contactame{
 	font-family: Oswald;
@@ -351,6 +351,7 @@ a:active{
 	margin-top: 20px;
 	background-color: #F73859;
 	border: 0;
+	margin-bottom: 35px;
 }
 .btn-lg:hover{
 	background-color: #F73859;
@@ -406,37 +407,41 @@ footer{
 }
 /*MEDIA QUERIES 770px*/
 @media screen and (max-width : 770px){
+	.frase h1{
+		font-size: 26px;
+		margin: 28px 0 0 10px;
+	}
 	.ocultar{
-	display: inline-block;
+		display: inline-block;
 	}
 	.links{
-	width: 92%;
-	height: 66%;
-	background: rgba(0, 0, 0, 0.3);
+		width: 92%;
+		height: 66%;
+		background: rgba(0, 0, 0, 0.3);
 	}
 	.boton-link{
-	background: rgba(240, 56, 87, 0.7);
-	font-size: 24px;
-	padding: 2%;
-	margin: 9% 0;
-	border: 3px white solid;
+		background: rgba(240, 56, 87, 0.7);
+		font-size: 24px;
+		padding: 2%;
+		margin: 9% 0;
+		border: 3px white solid;
 	}
 	.links-jquery{
-	width: 180px;
-	margin: auto;
-	position: absolute;
-	z-index: 1;
-	top: 0; left: 0; bottom: 0; right: 0;
-	background: rgba(0, 0, 0, 0.3);
+		width: 180px;
+		margin: auto;
+		position: absolute;
+		z-index: 1;
+		top: 0; left: 0; bottom: 0; right: 0;
+		background: rgba(0, 0, 0, 0.3);
 	}
 	.titulo-contactame{
 		font-size: 50px;
 	}
 	.contenido-quien-soy{
-	font-size: 1.6em;
+		font-size: 1.6em;
 	}
 	#quien-soy{
-	margin-bottom: 50px;
+		margin-bottom: 50px;
 	}
 	.presentacion{
 		padding: 42% 0;
@@ -445,81 +450,88 @@ footer{
 		width: 100%;
 	}
 	.img-sobre-mi {
-	width: 59%;
+		width: 59%;
 	}
 	.friends {
-	margin: 7%;
+		margin: 7%;
 	}
 	.img-sobre-mi {
-	width: 74%;
+		width: 74%;
 	}
 	.contenido-gustos {
-	width: 70%;
-	font-size: 2.5em;
-	margin: 100px auto 0 auto;
+		width: 70%;
+		font-size: 2.5em;
+		margin: 100px auto 0 auto;
 	}
 }
 
 /*MEDIA QUERIES 320px*/
 @media screen and (max-width : 320px){
+	.frase img {
+		width: 60px;
+	}
+	.frase h1 {
+		margin: 0 0 0 10px;
+		font-size: 27px;
+	}
 	.titulo-contactame{
 		font-size: 50px;
 	}
 	.contenido-quien-soy{
-	font-size: 1.1em;
+		font-size: 1.1em;
 	}
 	.friends {
-	margin: 18% 0;
+		margin: 18% 0;
 	}
 	.presentacion{
-		padding: 60% 0;
+		padding: 43% 0;
 	}
 	.links{
-	width: 86%;
-	height: 50%;
+		width: 86%;
+		height: 50%;
 	}
 	.boton-link{
-	font-size: 15px;
-	padding: 2%;
-	margin: 5% 0;
+		font-size: 15px;
+		padding: 2%;
+		margin: 5% 0;
 	}
 	.subtitulo-proyecto {
-	display: inline-block;
-	width: 150px;
-	font-size: 18px;
-	padding: 10px 0;
-	border-radius: 10px;
+		display: inline-block;
+		width: 150px;
+		font-size: 18px;
+		padding: 10px 0;
+		border-radius: 10px;
 	}
 	.proyecto-jquery .boton-link {
-	border: 3px white solid;
-	width: 80%;
-	font-size: 24px;
-	margin: 20% 0;
-	font-family: Oswald;
-	color: white;
+		border: 3px white solid;
+		width: 80%;
+		font-size: 24px;
+		margin: 20% 0;
+		font-family: Oswald;
+		color: white;
 	}
 	.navbar-toggle{
 		margin-top: 22px;
 		margin-right: 19px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
+		background-color: #fff;
 	}
 	.nav > li > a {
-	padding: 15px 37px;
+		padding: 15px 37px;
 	}
 	.contenido-gustos {
-	width: 80%;
-	color: white;
-	border-radius: 15px;
-	font-size: 2em;
-	margin:0 auto;
+		width: 80%;
+		color: white;
+		border-radius: 15px;
+		font-size: 2em;
+		margin:0 auto;
 	}
 	.img-sobre-mi {
-	width: 89%;
+		width: 89%;
 	}
 	.subtitulo-skill {
-	font-size: 14px;
+		font-size: 14px;
 	}
 
 }
