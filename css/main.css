@@ -98,16 +98,16 @@ a:active{
 	margin-bottom: 76px;
 }
 .titulo{
-	background-color: black;
+	background-color: white;
 	padding: 10px 0;
 	width: 100%;
-	font-family: Oswald;
-	font-size: 25px;
+	font-family: Lobster Two;
+	font-size: 35px;
 	margin: 0 auto;
-	margin-top: 90px;
+	margin-top: 60px;
 	margin-bottom: 30px;
 	text-align: center;
-	color: white;
+	color: black;
 }
 .contenido-quien-soy{
 	background-color: #C4EDDE;
@@ -177,20 +177,20 @@ a:active{
 	width: 120px;
 	margin: 0 auto;
 	text-align: center;
-	height: 165px;
+	height: 120px;
 }
 .div-img-skill-chica{
 	width: 120px;
 	margin: 0 auto;
-	height: 140px;
+	height: 100px;
 	text-align: center;
 }
 .img-skill{
-	width: 80%;
+	width: 50%;
 	margin:20px 0;
 }
 .corel{
-	width: 60%;
+	width: 40%;
 }
 #skills{
 	background-color: black;
