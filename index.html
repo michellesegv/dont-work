@@ -1,415 +1,440 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<title>Michelle Seguil</title>
-		<meta charset="utf-8">
-		<!--VISTA MÓVIL-->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <title>Michelle Seguil</title>
+    <meta charset="utf-8">
+    <!--VISTA MÓVIL-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!--ÍCONO DE LA PÁGINA-->
-		<link rel="shortcut icon" href="img/escudo.ico">
+    <!--ÍCONO DE LA PÁGINA-->
+    <link rel="shortcut icon" href="img/escudo.ico">
 
-		<!--ENLAZANDO CSS-->
-		<link rel="stylesheet" href="css/animate.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="icomoon/style.css">
-		<link rel="stylesheet" href="css/main.css">
-	</head>
-	<body>
-		<!--IMG LOADER-->
-		<div class="pre-load"></div>
+    <!--ENLAZANDO CSS-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!--IMG LOADER-->
+    <div class="pre-load"></div>
 
-		<!--AQUÍ COMIENZA EL NAVBAR-->
-		<nav class="navbar navbar-default navbar-fixed-top menu">
-			<div class="container-fluid menu">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href=#><img class="logo" src="img/escudo.png" alt="mi logo"></a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#quien-soy">¡Hola!</a></li>
-						<li><a href="#skills">Conocimientos</a></li>
-						<li><a href="#proyectos">Proyectos</a></li>
-						<li><a href="#sobre-mi">Habilidades</a></li>
-						<li><a href="#contactame">Contáctame</a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!--AQUÍ TERMINA EL NAVBAR-->
+    <!--AQUÍ COMIENZA EL NAVBAR-->
+    <nav class="navbar navbar-default navbar-fixed-top menu">
+      <div class="container-fluid menu">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href=#><img class="logo" src="img/escudo.png" alt="mi logo"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a id="quien-soy-nav" href="#quien-soy">¡Hola!</a></li>
+            <li><a id="skills-nav" href="#skills">Conocimientos</a></li>
+            <li><a id="proyectos-nav" href="#proyectos">Proyectos</a></li>
+            <li><a id="sobre-mi-nav" href="#sobre-mi">Habilidades</a></li>
+            <li><a id="contactame-nav" href="#contactame">Contáctame</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--AQUÍ TERMINA EL NAVBAR-->
 
-		<!--ESTE ES EL ENCABEZADO-->
-		<header class="presentacion">
-			<div class="wow pulse animated" data-wow-delay="100ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">Michelle<br>Seguil</div>
-		</header>
-		<section class="frase">
-			<div class="row">
-				<div class="col-md-12">
-					<img src="img/front-end.png" alt="logo front-end"><h1>Front-end web<br>developer</h1>
-				</div>
-			</div>
-		</section>
-		<!--AQUÍ COMIENZA LA SECCIÓN "¿QUIÉN SOY?"-->
-		<section class="bajando" id="quien-soy">
-			<div class="container">
-				<div class="titulo">
-					¿Quién soy?
-				</div>
-				<div class="row text-center">
-					<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-						<div id="carousel-example-generic" class="carousel slide wow bounceInLeft" data-ride="carousel">
-							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							</ol>
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<img src="img/mis-fotos/profile-original.jpg" alt="yo mitad">
-									<div class="carousel-caption">
-									</div>
-								</div>
-								<div class="item">
-									<img src="img/mis-fotos/yo-derecha.jpg" alt="yo a la derecha">
-									<div class="carousel-caption">
-									</div>
-								</div>
-								<div class="item">
-									<img src="img/mis-fotos/mitad-yo.jpg" alt="yo mitad">
-									<div class="carousel-caption">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-justify">
-						<div class="contenido-quien-soy wow bounceInRight">
-							¡Hola! Mi nombre es Michelle y soy coder de pasión. <img src="img/emojis/lap.png" alt="laptop" class="emoji"><img src="img/emojis/chica.png" alt="chica" class="emoji"><img src="img/emojis/musculo.png" alt="brazo" class="emoji"><br>
-							Tengo 18 años y  vivo en Lima.<img src="img/emojis/joven.png" alt="joven" class="emoji"><img src="img/emojis/lima.png" alt="Lima" class="emoji"><br>Desde hace dos años conozco este maravilloso e interesante mundo de la programación y a partir de ese momento, a partir de mi primer:<img src="img/hola-mundo.png" alt="Hello world" class="hola-mundo">no he parado de mi búsqueda de conocimiento. <img src="img/emojis/conocimientos.png" alt="libros" class="emoji"><br>Y es así como llegué a Laboratoria; un lugar en el que estoy aprendiendo HTML, CSS, JS, Jquery, Bootstrap, Materialize, entre otras cosas; además de desarrollar mis habilidades socio-emocionales y desarrollando la metodología Agile en el trabajo. <img src="img/emojis/nave.png" alt="nave" class="emoji"><img src="img/emojis/corazon.png" alt="corazon" class="emoji"><img src="img/emojis/lap.png" alt="laptop" class="emoji">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--AQUÍ TERMINA LA SECCIÓN "¿QUIÉN SOY?"-->
+    <!--ESTE ES EL ENCABEZADO-->
+    <header class="presentacion">
+      <div class="wow pulse animated" data-wow-delay="100ms" data-wow-iteration="infinite" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-delay: 300ms; animation-iteration-count: infinite; animation-name: pulse;">Michelle<br>Seguil</div>
+    </header>
+    <section class="frase">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/front-end.png" alt="logo front-end"><h1>Front-end web<br>developer</h1>
+        </div>
+      </div>
+    </section>
+    <!--AQUÍ COMIENZA LA SECCIÓN "¿QUIÉN SOY?"-->
+    <section class="bajando" id="quien-soy">
+      <div class="container">
+        <div class="titulo">
+          ¿Quién soy?
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+            <div id="carousel-example-generic" class="carousel slide wow bounceInLeft" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/mis-fotos/profile-original.jpg" alt="yo mitad">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/mis-fotos/yo-derecha.jpg" alt="yo a la derecha">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="img/mis-fotos/mitad-yo.jpg" alt="yo mitad">
+                  <div class="carousel-caption">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-justify">
+            <div class="contenido-quien-soy wow bounceInRight">
+              ¡Hola! Mi nombre es Michelle y soy coder de pasión. <img src="img/emojis/lap.png" alt="laptop" class="emoji"><img src="img/emojis/chica.png" alt="chica" class="emoji"><img src="img/emojis/musculo.png" alt="brazo" class="emoji"><br>
+              Tengo 18 años y  vivo en Lima.<img src="img/emojis/joven.png" alt="joven" class="emoji"><img src="img/emojis/lima.png" alt="Lima" class="emoji"><br>Desde hace dos años conozco este maravilloso e interesante mundo de la programación y a partir de ese momento, a partir de mi primer:<img src="img/hola-mundo.png" alt="Hello world" class="hola-mundo">no he parado de mi búsqueda de conocimiento. <img src="img/emojis/conocimientos.png" alt="libros" class="emoji"><br>Y es así como llegué a Laboratoria; un lugar en el que estoy aprendiendo HTML, CSS, JS, Jquery, Bootstrap, Materialize, entre otras cosas; además de desarrollar mis habilidades socio-emocionales y desarrollando la metodología Agile en el trabajo. <img src="img/emojis/nave.png" alt="nave" class="emoji"><img src="img/emojis/corazon.png" alt="corazon" class="emoji"><img src="img/emojis/lap.png" alt="laptop" class="emoji">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--AQUÍ TERMINA LA SECCIÓN "¿QUIÉN SOY?"-->
 
-		<!--AQUÍ TERMINA LA SECCIÓN "HABILIDADES"-->
-		<section id="skills">
-			<div class="container">
-				<div class="titulo titulo-skill progreso-bar">Conocimientos</div>
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill">
-							<img src="img/skills/html.png" alt="HTML" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>HTML : 85%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-html" class="estilo-barra barra-html"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill">
-							<img src="img/skills/css.png" alt="CSS" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>CCS :85%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-css" class="estilo-barra barra-css"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill">
-							<img src="img/skills/js.png" alt="Javascript" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>Javascript : 75%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-js" class="estilo-barra barra-js"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill">
-							<img src="img/skills/jquery.png" alt="Jquery" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>jQuery : 70%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-jquery" class="estilo-barra barra-jquery"></progress>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill-chica">
-							<img src="img/skills/bootstrap.png" alt="Bootstrap" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill">Bootstrap : 80%</p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-bootstrap" class="estilo-barra barra-bootstrap"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill-chica">
-							<img src="img/skills/white-e44bed0d.png" alt="Brackets" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>Sass : 50%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-sass" class="estilo-barra barra-sass"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill-chica">
-							<img src="img/skills/git.png" alt="Git" class="img-skill">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>Git : 85%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-git" class="estilo-barra barra-git"></progress>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-						<div class="div-img-skill-chica">
-							<img src="img/skills/corel.png" alt="Corel Draw" class="img-skill corel">
-						</div>
-						<p class="text-center subtitulo-skill"><strong>Corel Draw : 85%</strong></p>
-						<div class="contenedor-barra-skill">
-							<progress value="0" max="100" id="barra-corel" class="estilo-barra barra-corel"></progress>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--AQUÍ TERMINA LA SECCIÓN "HABILIDADES"-->
+    <!--AQUÍ TERMINA LA SECCIÓN "HABILIDADES"-->
+    <section id="skills">
+      <div class="container">
+        <div class="titulo titulo-skill progreso-bar">Conocimientos</div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill">
+              <img src="img/skills/html.png" alt="HTML" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>HTML : 85%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-html" class="estilo-barra barra-html"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill">
+              <img src="img/skills/css.png" alt="CSS" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>CCS :85%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-css" class="estilo-barra barra-css"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill">
+              <img src="img/skills/js.png" alt="Javascript" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>Javascript : 75%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-js" class="estilo-barra barra-js"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill">
+              <img src="img/skills/jquery.png" alt="Jquery" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>jQuery : 70%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-jquery" class="estilo-barra barra-jquery"></progress>
+            </div>
+          </div>
+        </div>
+        <div class="row segundo-row-skills">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill-chica">
+              <img src="img/skills/bootstrap.png" alt="Bootstrap" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill">Bootstrap : 80%</p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-bootstrap" class="estilo-barra barra-bootstrap"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill-chica">
+              <img src="img/skills/white-e44bed0d.png" alt="Brackets" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>Sass : 50%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-sass" class="estilo-barra barra-sass"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill-chica">
+              <img src="img/skills/git.png" alt="Git" class="img-skill">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>Git : 85%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-git" class="estilo-barra barra-git"></progress>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <div class="div-img-skill-chica">
+              <img src="img/skills/corel.png" alt="Corel Draw" class="img-skill corel">
+            </div>
+            <p class="text-center subtitulo-skill"><strong>Corel Draw : 85%</strong></p>
+            <div class="contenedor-barra-skill">
+              <progress value="0" max="100" id="barra-corel" class="estilo-barra barra-corel"></progress>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--AQUÍ TERMINA LA SECCIÓN "HABILIDADES"-->
 
-		<!--AQUÍ COMIENZA LA SECCIÓN "PROYECTOS"-->
-		<section id="proyectos">
-			<div class="container">
-				<div class="titulo titulo-blanco">Mis proyectos</div>
-				<div class="row wow flipInY">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="titulo-proyecto">HTML y CSS</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/escuela-danza/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/escuela-danza" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-escuela-danza.png" alt="Proyecto Escuela de danza" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Escuela de Danza</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/responsive-blog/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/responsive-blog" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-responsive-blog.png" alt="Proyecto Responsive blog" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Responsive blog</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://sthecrash.github.io/republica/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/sthecrash/republica" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-republica.png" alt="Proyecto La República" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">La Republica</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/ecomunidad/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/ecomunidad" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-ecomunidad.png" alt="Proyecto Ecomunidad" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Ecomunidad</p>
-					</div>
-				</div>
-				<div class="row wow flipInY">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="titulo-proyecto">Javascript</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/proyectojs/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/proyectojs" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-chircholoco.png" alt="Proyecto Chircholoco" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Chircholoco</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/trello/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/trello" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-trello.png" alt="Proyecto Trello" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Trello</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/twitter/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/twitter" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-twittrafico.png" alt="Proyecto Twitter" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Twittráfico</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/todoapp/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/todoapp" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/responsive-to-do-app.png" alt="Proyecto To do app" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">To do app</p>
-					</div>
-				</div>
-				<div class="row wow flipInY">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="titulo-proyecto">Jquery</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-						<div class="proyecto proyecto-jquery">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/lyft/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/lyft" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/lyft.png" alt="Proyecto Lyft" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Lyft</p>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  text-center">
-						<div class="proyecto proyecto-jquery">
-							<div class="links ocultar">
-								<a class="btn boton-link" href="https://michellesv.github.io/todoapp/" target="_blank">Demo</a><br>
-								<a class="btn boton-link" href="https://github.com/MichelleSV/todoapp" target="_blank">Código</a>
-							</div>
-							<img src="img/responsive/tinder.png" alt="Proyecto Tinder" class="proyecto-img">
-						</div>
-						<p class="subtitulo-proyecto">Tinder</p>
-					</div>
-				</div>
-				<div id="sobre-mi"></div>
-			</div>
-		</section>
-		<!--AQUÍ TERMINA LA SECCIÓN "PROYECTOS"-->
+    <!--AQUÍ COMIENZA LA SECCIÓN "PROYECTOS"-->
+    <section id="proyectos">
+      <div class="container">
+        <div class="titulo">Mis proyectos</div>
+        <div class="row wow flipInY">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="titulo-proyecto">Jquery</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto proyecto-jquery">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Lyft</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/lyft/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/lyft" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/lyft.png" alt="Proyecto Lyft" class="proyecto-img">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12  text-center">
+            <div class="proyecto proyecto-jquery">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Tinder</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/todoapp/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/todoapp" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/tinder.png" alt="Proyecto Tinder" class="proyecto-img">
+            </div>
+          </div>
+        </div>
+        <div class="row wow flipInY">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="titulo-proyecto">Javascript</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Chircholoco</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/proyectojs/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/proyectojs" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-chircholoco.png" alt="Proyecto Chircholoco" class="proyecto-img">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Trello</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/trello/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/trello" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-trello.png" alt="Proyecto Trello" class="proyecto-img">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Twittráfico</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/twitter/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/twitter" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-twittrafico.png" alt="Proyecto Twitter" class="proyecto-img">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">To do app</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/todoapp/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/todoapp" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-to-do-app.png" alt="Proyecto To do app" class="proyecto-img">
+            </div>
+          </div>
+        </div>
+        <div class="row wow flipInY">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="titulo-proyecto">HTML y CSS</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Escuela de Danza</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/escuela-danza/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/escuela-danza" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-escuela-danza.png" alt="Proyecto Escuela de danza" class="proyecto-img">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Responsive blog</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/responsive-blog/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/responsive-blog" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-responsive-blog.png" alt="Proyecto Responsive blog" class="proyecto-img">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">La Republica</p>
+                <a class="btn boton-link" href="https://sthecrash.github.io/republica/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/sthecrash/republica" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-republica.png" alt="Proyecto La República" class="proyecto-img">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="proyecto">
+              <div class="links ocultar">
+                <p class="subtitulo-proyecto">Ecomunidad</p>
+                <a class="btn boton-link" href="https://michellesv.github.io/ecomunidad/" target="_blank"><span class="icon-display"></span> Demo</a>
+                <a class="btn boton-link" href="https://github.com/MichelleSV/ecomunidad" target="_blank"><span class="icon-github"></span> Código</a>
+              </div>
+              <img src="img/responsive/responsive-ecomunidad.png" alt="Proyecto Ecomunidad" class="proyecto-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--AQUÍ TERMINA LA SECCIÓN "PROYECTOS"-->
 
-		<!--AQUÍ COMIENZA LA SECCIÓN "SOBRE MÍ"-->
-		<section class="sobre-mi">
-			<div class="container">
-				<div class="titulo">Habilidades</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Habilidad para trabajar en equipo aportando ideas e implementando soluciones, trabajando así activamente con el proyecto.
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Conocimiento de herramientas que facilitan la comunicación en equipo.
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Capacidad para trabajar bajo presión
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="hidden-md hidden-sm hidden-xs col-lg-4 col-md-4">
-						<img src="img/escudo-y-titulo.png" alt="escudo y titulo" class="img-sobre-mi">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Capacidad para la resolución eficaz de los conflictos.
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Capacidad de liderazgo.
-								</div>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<div class="habilidad-info">
-									Alto nivel de análisis.
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--AQUÍ TERMINA LA SECCIÓN "SOBRE MÍ"-->
+    <!--AQUÍ COMIENZA LA SECCIÓN "SOBRE MÍ"-->
+    <section id="sobre-mi">
+      <div class="container">
+        <div class="titulo">Habilidades</div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-habilidades">
+            <div class="habilidad1">
+            </div>
+            <span class="icon-briefcase"></span>
+            <p>Capacidad para trabajar bajo presión</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-habilidades">
+            <div class="habilidad2">
+            </div>
+            <span class="icon-users"></span>
+            <p>Habilidad para trabajar en equipo aportando ideas e implementando soluciones, trabajando así activamente con el proyecto.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-habilidades">
+            <div class="habilidad3">
+            </div>
+            <span class="icon-bubbles"></span>
+            <p>Conocimiento de herramientas que facilitan la comunicación en equipo.</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 img-habilidades">
+            <div class="habilidad4">
+            </div>
+            <span class="icon-sleepy"></span>
+            <p>Capacidad para la resolución eficaz de los conflictos.</p>
+          </div>
+        </div>
+        <!--<div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Habilidad para trabajar en equipo aportando ideas e implementando soluciones, trabajando así activamente con el proyecto.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Conocimiento de herramientas que facilitan la comunicación en equipo.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Capacidad para trabajar bajo presión
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hidden-md hidden-sm hidden-xs col-lg-4 col-md-4">
+            <img src="img/escudo-y-titulo.png" alt="escudo y titulo" class="img-sobre-mi">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Capacidad para la resolución eficaz de los conflictos.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Capacidad de liderazgo.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="habilidad-info">
+                  Alto nivel de análisis.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </section>
+    <!--AQUÍ TERMINA LA SECCIÓN "SOBRE MÍ"-->
 
-		<!--AQUÍ COMIENZA LA SECCIÓN "CONTÁCTAME"-->
-		<footer id="contactame">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 text-center">
-						<div class="titulo-contactame">CONTÁCTAME</div>
-						<div class="links-contacto">
-							<h3><a href="https://github.com/MichelleSV" target="_blank"><i class="icon-github icono"></i>MichelleSV</a></h3><br>
-							<h3><i class="icon-google3 icono"></i><a href="mailto:seguilvilchezmichelle@gmail.com">¡Envíame un correo! ¡Haz click aquí!:<br><br>seguilvilchezmichelle@gmail.com</a></h3><br>
-							<h3><i class="glyphicon glyphicon-earphone icono2"></i>+51 921013769</h3><br>
-							<a href="cv.pdf" download="CV-Michelle-Seguil">
-								<button class="btn btn-primary btn-lg">¡Descarga mi CV! <i class="glyphicon glyphicon-save icono2"></i></button>
-							</a>
-						</div>
-					</div>
-					<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
-						<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="michellesegv"><a class="LI-simple-link" href='https://pe.linkedin.com/in/michelle-seguil-vilchez?trk=profile-badge' target="_blank">Michelle Seguil Vílchez</a></div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--AQUÍ TERMINA LA SECCIÓN "CONTÁCTAME"-->
-		<footer>
-			<div class="container">
-				<p>Hecho por Michelle Seguil ©</p>
-			</div>
-		</footer>
-		<!--ENLAZANDO JS-->
-		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-		<script type="text/javascript" src="js/wow.min.js"></script>
-		<script type="text/javascript" src="js/modernizr.js"></script>
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+    <!--AQUÍ COMIENZA LA SECCIÓN "CONTÁCTAME"-->
+    <footer id="contactame">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 text-left">
+            <div class="titulo-contactame">Contáctame</div>
+            <div class="links-contacto">
+              <h3><a href="https://github.com/MichelleSV" target="_blank"><span class="icon-github icono"></span>MichelleSV</a></h3><br>
+              <h3><span class="icon-google3 icono"></span><a href="mailto:seguilvilchezmichelle@gmail.com">seguilvilchezmichelle@gmail.com</a></h3><br>
+              <h3><span class="glyphicon glyphicon-earphone icono2"></span>+51 921013769</h3><br>
+              <h3><span class="glyphicon glyphicon-map-marker icono"></span>Lima, Perú</h3><br>
+              <a href="cv.pdf" download="CV-Michelle-Seguil">
+                <button class="btn btn-primary btn-lg">¡Descarga mi CV! <span class="glyphicon glyphicon-save icono2"></span></button>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="michellesegv"><a class="LI-simple-link" href='https://pe.linkedin.com/in/michelle-seguil-vilchez?trk=profile-badge' target="_blank">Michelle Seguil Vílchez</a></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--AQUÍ TERMINA LA SECCIÓN "CONTÁCTAME"-->
+    <footer>
+      <div class="container">
+        <p>© Michelle Seguil 2016</p>
+      </div>
+    </footer>
+    <!--ENLAZANDO JS-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>

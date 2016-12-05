@@ -5,16 +5,16 @@ $(window).load(function() {
 //Smooth Scrolling
 $(function() {
 	$('a[href*="#"]:not([href="#"])').click(function() {
-	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		var target = $(this.hash);
-		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		if (target.length) {
-		$('html, body').animate({
-			scrollTop: target.offset().top
-		}, 1000);
-		return false;
+		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+				$('html, body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
 		}
-	}
 	});
 });
 //Wow
@@ -51,16 +51,45 @@ var barraProgreso= function (){
 	var barraCorel = document.getElementById("barra-corel");
 	var barraGit = document.getElementById("barra-git");
 	var barraSass = document.getElementById("barra-sass");
-	barraHtml.value+=5;
-	barraCss.value+=5;
-	barraJs.value+=5;
-	barraJquery.value+=5;
-	barraBootstrap.value+=5;
-	barraCorel.value+=5;
-	barraGit.value+=5;
-	barraSass.value+=5;
+	barraHtml.value+=2;
+	barraCss.value+=2;
+	barraJs.value+=2;
+	barraJquery.value+=2;
+	barraBootstrap.value+=2;
+	barraCorel.value+=2;
+	barraGit.value+=2;
+	barraSass.value+=2;
 }
 //Mostrar links de proyectos
-$(".proyecto").hover(function(){
-	$(this).children().eq(0).toggleClass("ocultar");
+$(".proyecto").hover(
+	function(){
+		$(this).children().eq(0).fadeIn(1000);
+	},
+	function(){
+		$(this).children().eq(0).fadeOut();
+	}
+);
+//Navegación
+function scrollSpy() {
+	var add = 0;
+	$('.navbar-collapse ul li a').each(function(){
+		add+= 100;
+		var hrefName = $(this).attr('href');
+		if(hrefName.length) {
+			var idTop = $(hrefName).offset().top - add;
+		}
+		var	seccionHeight = $(hrefName).height(),
+			parent = $(this).parent(),
+			windowTop = $(window).scrollTop();
+		if (windowTop >= idTop && windowTop <= idTop + seccionHeight + 100) {
+			$(hrefName+"-nav").addClass("color");
+			add+= 50;
+		} else {
+			$(hrefName+"-nav").removeClass("color");
+			add= add -50;
+		}
+	});
+}
+$(window).scroll(function(){
+	scrollSpy();
 });

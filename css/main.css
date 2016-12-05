@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Lobster+Two|Oswald|Pontano+Sans');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lobster|Lobster+Two|Pontano+Sans');
 /*LOADER*/
 .pre-load{
 	position: fixed;
@@ -11,6 +11,9 @@
 }
 
 /*NAVBAR*/
+.color{
+	color: #F73859 !important;
+}
 .item {
 	z-index: 5;
 }
@@ -36,6 +39,12 @@
 	width:100%;
 	border: 0  !important;
 	z-index: 1000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent !important;
 }
 a:active{
 	position: relative;
@@ -82,7 +91,7 @@ a:active{
 	color: white;
 	text-align: center;
 	padding: 30px 40px;
-	font-family: Oswald;
+	font-family: Pontano Sans;
 }
 .frase img{
 	display: inline-block;
@@ -92,19 +101,19 @@ a:active{
 .frase h1{
 	display: inline-block;
 	margin: 13px 0 0 10px;
+		font-weight: 700;
 }
 /*¿QUIÉN SOY?*/
 #quien-soy{
-	margin-bottom: 76px;
+	margin-bottom: 85px;
 }
 .titulo{
-	background-color: white;
 	padding: 10px 0;
 	width: 100%;
 	font-family: Lobster Two;
-	font-size: 35px;
+	font-size: 40px;
 	margin: 0 auto;
-	margin-top: 60px;
+	margin-top: 65px;
 	margin-bottom: 30px;
 	text-align: center;
 	color: black;
@@ -116,6 +125,7 @@ a:active{
 	padding:28px;
 	margin: auto;
 	font-family: Pontano Sans;
+	font-weight: 700;
 	font-size: 18px;
 }
 .hola-mundo{
@@ -185,6 +195,9 @@ a:active{
 	height: 100px;
 	text-align: center;
 }
+.segundo-row-skills{
+	margin-top: 55px;
+}
 .img-skill{
 	width: 50%;
 	margin:20px 0;
@@ -194,10 +207,10 @@ a:active{
 }
 #skills{
 	background-color: black;
-	padding-bottom: 90px;
+	padding-bottom: 78px;
 }
 .titulo-skill{
-	background-color:#F73859;
+	color: white;
 }
 .subtitulo-skill{
 	color: white;
@@ -220,14 +233,13 @@ a:active{
 	padding-bottom: 25px;
 }
 .titulo-proyecto{
-	background-color:#F73859;
+	color:#F73859;
 	width: 100%;
 	padding: 10px 0;
-	margin: 20px 0;
-	font-family: Pontano Sans;
+	font-family: Lobster Two;
 	text-align: center;
-	color: white;
-	font-size: 1.3em;
+	font-size: 28px;
+	margin: 20px 0;
 }
 .proyecto{
 	width: 100%;
@@ -239,35 +251,35 @@ a:active{
 	position: relative;
 }
 .proyecto-jquery .boton-link{
-	border: 4px white solid;
+	border: 1px white solid;
 	background-color: #F73859;
 	width: 80%;
-	border-radius: 15px;
-	font-size: 22px;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 5% 0;
 	padding: 3%;
-	margin: 30% 0;
-	font-family: Oswald;
+	font-family: Pontano Sans;
 	color: white;
+}
+.proyecto-jquery p{
+	margin-top: 50%;
 }
 .proyecto-img{
 	width: 70%;
 	margin: 20px auto;
 	position: relative;
 }
-.titulo-blanco{
-	background-color: white;
-	color: black;
-}
 .boton-link{
-	border: 4px white solid;
 	background-color: #F73859;
-	width: 80%;
+	width: 30%;
 	border-radius: 15px;
-	font-size: 22px;
+	font-size: 18px;
 	padding: 3%;
-	margin: 8% 0;
 	font-family: Pontano Sans;
 	color: white;
+	border: 1px solid white;
+	font-weight: 700;
+	display: inline-block;
 }
 .boton-link:visited{
 	color: white;
@@ -296,38 +308,66 @@ a:active{
 	position: absolute;
 	z-index: 1;
 	top: 0; left: 0; bottom: 0; right: 0;
-	background: rgba(0, 0, 0, 0.8);
+	background-color: #F73859;
 }
 .ocultar{
 	display: none;
 }
 .subtitulo-proyecto{
-	display: inline-block;
-	width: 250px;
-	background-color: white;
-	font-family: Oswald;
-	font-size: 20px;
-	padding: 10px 0;
-	border-radius: 15px;
+	width: 100%;
+	color: white;
+	font-family: Lobster Two;
+	font-size: 30px;
+	text-align: center;
+	margin: 16% auto 5% auto;
 }
 
 /*SOBRE MÍ*/
-.sobre-mi{
-	padding: 0 0 38px 0;
+#sobre-mi{
+	padding: 0 0 30px 0;
 	text-align: center;
 }
 .img-sobre-mi{
 	width: 80%;
 }
-.habilidad-info{
-	background-color: #F73859;
+.img-habilidades div{
 	width: 100%;
-	height: auto;
-	padding: 30px 25px;
-	color: white;
-	margin-bottom: 25px;
-	font-family:Pontano Sans;
+	height: 300px;
+}
+.img-habilidades{
+	position: relative;
+}
+.img-habilidades span{
+	position: absolute;
+	border-radius: 50%;
+	padding: 20px;
+	background-color: white;
+	color: black;
+	top: 275px;
+	left: 45%;
+}
+.img-habilidades p{
+	margin: 30px 0;
+	font-family: Pontano Sans;
+	font-weight: 700;
 	font-size: 18px;
+	text-align: center;
+}
+.habilidad1{
+	background-image: url(../img/habilidades/presion.jpg);
+	background-size: 170% 100%;
+}
+.habilidad2{
+	background-image: url(../img/habilidades/trabajo-equipo.jpg);
+	background-size: 155% 100%;
+}
+.habilidad3{
+	background-image: url(../img/habilidades/comunicacion.jpg);
+	background-size: 160% 100%;
+}
+.habilidad4{
+	background-image: url(../img/habilidades/no-estres.jpg);
+	background-size: 100% 100%;
 }
 /*CONTÁCTAME*/
 #contactame{
@@ -336,7 +376,7 @@ a:active{
 	padding: 70px 0 30px 0;
 }
 .titulo-contactame{
-	font-family: Oswald;
+	font-family: Lobster Two;
 	font-size: 60px;
 }
 .icono{
@@ -407,6 +447,9 @@ footer{
 }
 /*MEDIA QUERIES 770px*/
 @media screen and (max-width : 770px){
+	.hola-mundo {
+		width: 38%;
+	}
 	.frase h1{
 		font-size: 26px;
 		margin: 28px 0 0 10px;
@@ -416,15 +459,14 @@ footer{
 	}
 	.links{
 		width: 92%;
-		height: 66%;
-		background: rgba(0, 0, 0, 0.3);
+		height: 85%;
+		background: rgba(0, 0, 0, 0.7);
 	}
 	.boton-link{
 		background: rgba(240, 56, 87, 0.7);
 		font-size: 24px;
 		padding: 2%;
 		margin: 9% 0;
-		border: 3px white solid;
 	}
 	.links-jquery{
 		width: 180px;
@@ -449,24 +491,39 @@ footer{
 	.proyecto-img{
 		width: 100%;
 	}
-	.img-sobre-mi {
-		width: 59%;
-	}
 	.friends {
 		margin: 7%;
-	}
-	.img-sobre-mi {
-		width: 74%;
 	}
 	.contenido-gustos {
 		width: 70%;
 		font-size: 2.5em;
 		margin: 100px auto 0 auto;
 	}
+	.proyecto-jquery .boton-link{
+		background: rgba(240, 56, 87, 0.7);
+	}
+	.subtitulo-proyecto{
+		font-size: 43px;
+	}
+	.segundo-row-skills{
+		margin-top: 0px;
+	}
+	h3 a{
+		font-size: 22px;
+	}
 }
 
 /*MEDIA QUERIES 320px*/
 @media screen and (max-width : 320px){
+	.segundo-row-skills{
+		margin-top: 0px;
+	}
+	h3 a{
+		font-size: 15px;
+	}
+	h3{
+		font-size: 15px;
+	}
 	.frase img {
 		width: 60px;
 	}
@@ -487,28 +544,37 @@ footer{
 		padding: 43% 0;
 	}
 	.links{
-		width: 86%;
-		height: 50%;
+		width: 89%;
+		height: 78%;
+
 	}
 	.boton-link{
+		border-radius: 10px;
 		font-size: 15px;
 		padding: 2%;
 		margin: 5% 0;
 	}
 	.subtitulo-proyecto {
-		display: inline-block;
-		width: 150px;
-		font-size: 18px;
+		font-size: 25px;
 		padding: 10px 0;
 		border-radius: 10px;
+		margin: 10% auto 0 auto;
+	}
+	.btn-lg{
+		margin: 20px auto 35px auto;
+		display: list-item;
 	}
 	.proyecto-jquery .boton-link {
-		border: 3px white solid;
-		width: 80%;
-		font-size: 24px;
-		margin: 20% 0;
-		font-family: Oswald;
+		border: 1px white solid;
+		width: 64%;
+		font-size: 15px;
+		margin: 6% 0;
+		background: rgba(240, 56, 87, 0.7);
+		font-family: Pontano Sans;
 		color: white;
+	}
+	.proyecto-jquery p {
+		margin-top: 40%;
 	}
 	.navbar-toggle{
 		margin-top: 22px;
