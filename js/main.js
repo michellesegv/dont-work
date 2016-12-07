@@ -41,6 +41,7 @@ $(function(){
 			setInterval(barraProgreso, 100);
 		}
 	});
+	//$(".LI-view-profile").attr("target","_blank");
 });
 var barraProgreso= function (){
 	var barraHtml = document.getElementById("barra-html");
