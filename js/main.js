@@ -33,34 +33,6 @@ $(function() {
     }
   });
 });
-// Barras de progreso
-$(function() {
-  var altura = $('.progreso-bar').offset().top;
-  $(window).on('scroll', function() {
-    if ($(window).scrollTop() > altura - 130) {
-      setInterval(barraProgreso, 100);
-    }
-  });
-  // $('.LI-view-profile').attr('target','_blank');
-});
-var barraProgreso = function() {
-  var barraHtml = document.getElementById('barra-html');
-  var barraCss = document.getElementById('barra-css');
-  var barraJs = document.getElementById('barra-js');
-  var barraJquery = document.getElementById('barra-jquery');
-  var barraBootstrap = document.getElementById('barra-bootstrap');
-  var barraCorel = document.getElementById('barra-corel');
-  var barraGit = document.getElementById('barra-git');
-  var barraSass = document.getElementById('barra-sass');
-  barraHtml.value += 2;
-  barraCss.value += 2;
-  barraJs.value += 2;
-  barraJquery.value += 2;
-  barraBootstrap.value += 2;
-  barraCorel.value += 2;
-  barraGit.value += 2;
-  barraSass.value += 2;
-};
 // Mostrar links de proyectos
 $('.proyecto').hover(
   function() {

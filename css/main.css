@@ -139,50 +139,6 @@ a:active{
 	text-align: justify;
 }
 
-/*Conocimientos*/
-.contenedor-barra-skill{
-	width: 100%;
-	height: 20px;
-	margin: 10px auto;
-	border-radius: 15px;
-	background-color: white;
-}
-.estilo-barra{
-	border-radius: 15px;
-}
-.estilo-barra::-webkit-progress-bar{
-	border-radius: 15px;
-	background-color: transparent;
-}
-.estilo-barra::-webkit-progress-value{
-	background-color: #F73859;
-	border-radius: 15px;
-	height: 18px;
-}
-.barra-html{
-	width: 85%;
-}
-.barra-css{
-	width: 85%;
-}
-.barra-js{
-	width: 75%;
-}
-.barra-jquery{
-	width: 70%;
-}
-.barra-bootstrap{
-	width: 80%;
-}
-.barra-corel{
-	width: 80%;
-}
-.barra-git{
-	width: 85%;
-}
-.barra-sass{
-	width: 50%;
-}
 .div-img-skill{
 	width: 120px;
 	margin: 0 auto;
@@ -202,8 +158,8 @@ a:active{
 	width: 50%;
 	margin:20px 0;
 }
-.corel{
-	width: 40%;
+.gulp{
+	width: 25%;
 }
 #skills{
 	background-color: black;
@@ -407,6 +363,12 @@ a:active{
 }
 .btn-lg:active:focus{
 	background-color: #F73859;
+}
+.links-contacto h3:hover{
+	color: #F73859;
+}
+.links-contacto h3:hover a{
+	color: #F73859;
 }
 h3 a{
 	text-decoration: none;
