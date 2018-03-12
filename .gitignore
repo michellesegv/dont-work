@@ -6,3 +6,5 @@ img/sobre-mi/Thumbs.db
 img/fondos/Thumbs.db
 img/mis-fotos/Thumbs.db
 img/responsive/Thumbs.db
+node_modules/
+package-lock.json
