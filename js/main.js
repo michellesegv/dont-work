@@ -2,6 +2,7 @@
 $(window).load(function() {
   $('.pre-load').fadeOut('slow');
 });
+
 // Smooth Scrolling
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
