@@ -24,7 +24,7 @@
     "gulp-uglify": "^3.0.0"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^4.1.0",
     "imagemin-pngcrush": "^5.1.0"
   }
