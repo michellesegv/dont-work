@@ -5,7 +5,6 @@ var uglify = require('gulp-uglify');
 var cleancss = require('gulp-clean-css');
 const imagemin = require('gulp-imagemin');
 const imageminPngcrush = require('imagemin-pngcrush');
-var ghPages = require('gulp-gh-pages');
 
 
 gulp.task('devjs', function () {
@@ -38,9 +37,5 @@ gulp.task('devimgs', function () {
     .pipe(gulp.dest('dist/img/'));
 });
 
-gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages());
-});
 
-gulp.task('default', ['devimgs', 'devcss', 'devjs', 'deploy']);
+gulp.task('default', ['devimgs', 'devcss', 'devjs']);
